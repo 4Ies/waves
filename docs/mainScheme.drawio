@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="ugOBkOIhYhaLYrgnOA7V">
+    <mxGraphModel dx="1040" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Storage Manager" vertex="1">
+          <mxGeometry height="80" width="150" x="540" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Controller" vertex="1">
+          <mxGeometry height="80" width="100" x="340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Exceptions" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lyric Generator" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Isolator" vertex="1">
+          <mxGeometry height="80" width="90" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Whisper" vertex="1">
+          <mxGeometry height="80" width="90" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Models" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-33" edge="1" parent="1" source="JVgjdvBMx2GuIYLqm_Jm-10" style="endArrow=none;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JVgjdvBMx2GuIYLqm_Jm-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="300" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-34" edge="1" parent="1" source="JVgjdvBMx2GuIYLqm_Jm-8" style="endArrow=none;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JVgjdvBMx2GuIYLqm_Jm-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-51" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Controller" vertex="1">
+          <mxGeometry height="300" width="100" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-52" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Lyric Generator" vertex="1">
+          <mxGeometry height="300" width="100" x="160" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-54" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Isolator" vertex="1">
+          <mxGeometry height="300" width="100" x="280" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-55" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Whisper" vertex="1">
+          <mxGeometry height="300" width="100" x="400" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JVgjdvBMx2GuIYLqm_Jm-56" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Lyric Generator" vertex="1">
+          <mxGeometry height="300" width="100" x="520" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
