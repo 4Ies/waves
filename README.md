@@ -10,7 +10,9 @@ Generates lyrics of a track by firstly isolating the vocal parts of a song using
 ## Roadmap
 **W** is *WIP*, **D** is *Done*
 - (**D**) - Lyrics generator with transcription layer and vocals isolation
-- (**D**) - Tracks and lyrics storage with json 
+- (**D**) - Tracks and lyrics storage with json
+- (**D**) - Single track meaning generation 
 - (**W**) - Dynamics and key identifier
-- (**W**) - Llama integration
+- (**W**) - AI integration with isolated dynamics
+- (**W**) - Album meaning generation
 - (**W**) - UI Overhaul

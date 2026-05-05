@@ -1,11 +1,15 @@
 import whisper
-from whisper.utils import get_writer
 import core.isolator as isolator
-# from faster_whisper import WhisperModel
+from core.exceptions import *
 
 def transcript(audio_name):
-    print("Separating vocal track...")
-    vocals_file = isolator.isolate_vocals(audio_name)
+
+    try: 
+        print("Separating vocal track...")
+        vocals_file = isolator.isolate_vocals(audio_name)
+
+    except ImportError:
+        raise TranscriptionError
 
     print("Loading model for transcription...")
     model = whisper.load_model("base") # tiny, base, small, medium, large, turbo
@@ -26,8 +30,9 @@ def transcript(audio_name):
 
 
 def format_lyrics(result):
-    """Convert Whisper result to clean lyric card format."""
-    full_text = result["text"]
+    """
+    Convert Whisper result to clean lyric card format.
+    """
     
     # Optional: Split into lines at natural breaks (punctuation + line length)
     lines = []

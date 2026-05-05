@@ -1,6 +1,6 @@
-# core/isolator.py
 from audio_separator.separator import Separator
 from pathlib import Path
+from core.exceptions import *
 
 def isolate_vocals(song_name):
     """
@@ -27,7 +27,7 @@ def isolate_vocals(song_name):
     vocals_path = output_files[0] if output_files else None
 
     if not vocals_path:
-        raise RuntimeError("Vocal separation failed: no vocals file generated.")
+        raise IsolationException
 
     print(f"Vocals saved to: {vocals_path}")
     return vocals_path
